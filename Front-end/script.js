@@ -10,7 +10,8 @@ function move(){
         var elem = document.getElementById("myBar");
         
         var width = 1;
-        var id = setInterval(frame,22);
+        var time = 10;
+        var id = setInterval(frame,time);
         function frame(){
             if(width >=value){
                 clearInterval(id);
@@ -19,9 +20,10 @@ function move(){
                 width++;
                 elem.style.width = width+"%";
                 elem.innerHTML = width + "%";
+                if(width % 10 == 0){
+                    time = time + 10;
+                }
             }
-
-
         }
     }
 
