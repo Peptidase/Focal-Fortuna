@@ -85,3 +85,47 @@ a:active{
         font-size: 1em;
     }
 }
+
+
+.Goal{
+    text-align: center;
+    height:230px;
+    width:80%;
+    margin:auto;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.Goal h1{
+    animation: fadeIn linear 2s;
+
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.Goal .ProgressBar{
+    width:95%;
+    height:100px;
+    background-color: beige;
+    margin:auto;
+    margin-bottom: 10px;
+    border:10px solid rgba(0,0,0.47);
+    border-radius: 25px;
+}
+
+.ProgressBar #myBar{
+    width:1%;
+    height:100%;
+    background:linear-gradient(45.0deg,#33FF00 -17%,#D2F9C8 99%);
+    animation:ease-in;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 15px;
+
+}
+
