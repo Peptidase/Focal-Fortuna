@@ -59,41 +59,6 @@ a:active{
     
 }
 
-
-
-@media (max-width:1200px){
-    .page{
-        transition: 0.5s;
-        padding: 40px 40px;
-        height: 1000px;
-    
-    }
-    h1{
-        font-size: 1em;
-    }
-    .Goal{
-        width: 90%;
-    }
-}
-
-@media (max-width:800px){
-    .page{
-        transition: 0.5s;
-
-        padding: 10px 10px;
-        height: 1300px;
-    
-    }
-    h1{
-        font-size: 1em;
-    }
-
-    .Goal{
-        width: 100%;
-    }
-}
-
-
 .Goal{
     text-align: center;
     height:230px;
@@ -107,6 +72,29 @@ a:active{
     animation: fadeIn linear 2s;
 
 }
+
+.collapsible{
+    transition: 0.5s;
+    background-color:rgba(0,0,0.47,0);
+    color: white;
+    font-size: 2em;
+    border:none;
+    float: left;
+    margin-left: 40px;
+}
+
+.collapsible:hover{
+    transition: 0.5s;
+    background-color:#ccc;
+
+}
+
+.content{
+    display:none;
+    overflow: hidden;
+
+}
+
 
 @keyframes fadeIn{
     0%{opacity: 0;}
@@ -136,3 +124,46 @@ a:active{
 
 }
 
+@media (max-width:1200px){
+    .page{
+        transition: 0.5s;
+        padding: 40px 40px;
+        height: 1000px;
+    
+    }
+    h1{
+        font-size: 1em;
+    }
+    .Goal{
+        width: 90%;
+        font-size: 2em;
+
+    }
+
+    .collapsible{
+        font-size: 1em;
+    }
+}
+
+@media (max-width:800px){
+    .page{
+        transition: 0.5s;
+
+        padding: 10px 10px;
+        height: 1300px;
+    
+    }
+    h1{
+        font-size: 1em;
+    }
+
+    .Goal{
+        width: 100%;
+        font-size: 2em;
+
+    }
+
+    .collapsible{
+        font-size: 1em;
+    }
+}
