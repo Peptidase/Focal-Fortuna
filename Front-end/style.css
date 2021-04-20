@@ -71,6 +71,9 @@ a:active{
     h1{
         font-size: 1em;
     }
+    .Goal{
+        width: 90%;
+    }
 }
 
 @media (max-width:800px){
@@ -83,6 +86,10 @@ a:active{
     }
     h1{
         font-size: 1em;
+    }
+
+    .Goal{
+        width: 100%;
     }
 }
 
