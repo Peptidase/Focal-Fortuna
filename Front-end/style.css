@@ -66,6 +66,9 @@ a:active{
     margin:auto;
     padding-top: 5px;
     padding-left: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: darkslategray;
 }
 
 .Goal h1{
@@ -91,8 +94,12 @@ a:active{
 .content{
     display:none;
     overflow: hidden;
-    text-align: center;
-
+    align-items: center;
+    align-self: center;
+    background-color:darkslategray;
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 1em;
 }
 .content p {
     font-size:medium;
@@ -139,12 +146,16 @@ a:active{
     }
     .Goal{
         width: 90%;
+        font-size: 1em;
+
+    }
+    .Goal h1{
         font-size: 2em;
 
     }
 
     .collapsible{
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
 
@@ -162,7 +173,11 @@ a:active{
 
     .Goal{
         width: 100%;
-        font-size: 2em;
+        font-size: 1.5em;
+
+    }
+    .Goal h1{
+        font-size: 1em;
 
     }
 
