@@ -34,5 +34,12 @@ function movedelay(){
     setTimeout(move,500);
 }
 
-
+function togglehide(){
+    var coll = document.getElementsByClassName("content");
+    if(coll[0].style.display == "block"){
+        coll[0].style.display = "none";
+    }else{
+        coll[0].style.display = "block";
+    }
+}
 

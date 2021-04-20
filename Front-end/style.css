@@ -79,8 +79,7 @@ a:active{
     color: white;
     font-size: 2em;
     border:none;
-    float: left;
-    margin-left: 40px;
+    align-self:center;
 }
 
 .collapsible:hover{
@@ -92,9 +91,13 @@ a:active{
 .content{
     display:none;
     overflow: hidden;
+    text-align: center;
 
 }
+.content p {
+    font-size:medium;
 
+}
 
 @keyframes fadeIn{
     0%{opacity: 0;}
