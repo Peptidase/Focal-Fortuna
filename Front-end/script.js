@@ -36,6 +36,7 @@ function movedelay(){
 
 function togglehide(){
     var coll = document.getElementsByClassName("content");
+    
     if(coll[0].style.display == "block"){
         coll[0].style.display = "none";
         coll[0].style.height = "230px";

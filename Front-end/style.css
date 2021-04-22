@@ -83,11 +83,13 @@ a:active{
     font-size: 2em;
     border:none;
     align-self:center;
+    opacity: 1;
 }
 
 .collapsible:hover{
     transition: 0.5s;
     background-color:#ccc;
+    opacity: 0.5;
 
 }
 
