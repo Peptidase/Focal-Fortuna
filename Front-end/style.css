@@ -76,26 +76,15 @@ a:active{
 
 }
 
-.collapsible{
-    transition: 0.5s;
-    background-color:rgba(0,0,0.47,0);
+.Goal a:hover{
     color: white;
-    font-size: 2em;
-    border:none;
-    align-self:center;
-    opacity: 1;
-}
-
-.collapsible:hover{
-    transition: 0.5s;
-    background-color:#ccc;
-    opacity: 0.5;
 
 }
+
+
 
 .content{
-    display:none;
-    overflow: hidden;
+    width: 100%;
     align-items: center;
     align-self: center;
     background-color:darkslategray;
