@@ -7,8 +7,7 @@ from iexfinance.account import get_metadata
 
 
 
-#Can obtain Quotes, cannot obtain actual prices with free account, 
-
+#Can obtain Quotes, cannot obtain actual prices with free account, This one is okay but also has a max credit
 S = secrets.APIKEY()
 
 
