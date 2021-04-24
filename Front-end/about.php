@@ -11,7 +11,7 @@
 <body>
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 <div class="headerBar">
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </div>
 <div class="page">
 <h1>What is Focal-Fortuna?</h1>
@@ -27,7 +27,7 @@
 <p>Yes you can! This is a work in progress but sending me an email with confirmation of identity and your goal details will allow me to construct a profile based on your specifications. Hopefully we can reach your goal together throguh communal donations and charity work!</p>
 <hr>
 </div>
-<div id="PoweredBy">
+<div class="PoweredBy">
     
 </div>
 </div>

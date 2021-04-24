@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<?php 
+require_once "php/config.php";
+?>
 <title>Focal-Fortuna</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="fund.css">
@@ -13,10 +16,18 @@
 <body>
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 <div class="headerBar">
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
+<a href="about.php">About</a>
 </div>
 <div class="page">
+<?php 
 
+
+
+
+
+
+?>
 <div id="PoweredBy">
     
 </div>
