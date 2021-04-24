@@ -23,6 +23,28 @@ body, html {height: 100%}
     
 }
 
+.flexer{
+    display:flex;
+    flex-direction: row;
+}
+
+.flexer .links{
+    margin-right:auto;
+}
+
+.flexer .login{
+    margin-left:auto;
+}
+
+.flexer .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.login .mobilelogin{
+    display: none;
+}
+
 a{
     color: white;
 }
@@ -59,15 +81,34 @@ a:active{
     
 }
 
+
+
+
+
+
+.MapItems{
+    display:none;
+}
+
+.ListItems{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.ListItems > .Goal {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
 .Goal{
     text-align: center;
-    height:230px;
+    height:400px;
     width:80%;
     margin:auto;
     padding-top: 5px;
     padding-left: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+
     background-color: darkslategray;
 }
 
@@ -112,7 +153,8 @@ a:active{
     border-radius: 25px;
 }
 
-.ProgressBar #myBar{
+.ProgressBar .myBar{
+    display: none;
     width:1%;
     height:100%;
     background:linear-gradient(45.0deg,#33FF00 -17%,#D2F9C8 99%);
@@ -125,7 +167,7 @@ a:active{
 
 }
 
-@media (max-width:1200px){
+@media (max-width:1300px){
     .page{
         transition: 0.5s;
         padding: 40px 40px;
@@ -148,6 +190,10 @@ a:active{
     .collapsible{
         font-size: 1.5em;
     }
+
+    .ListItems > .Goal {
+        margin-top: 80px;
+      }
 }
 
 @media (max-width:800px){
@@ -172,7 +218,10 @@ a:active{
 
     }
 
-    .collapsible{
-        font-size: 1em;
-    }
+    
+    
+
+    .ListItems > .Goal {
+        margin-top: 120px;
+      }
 }
